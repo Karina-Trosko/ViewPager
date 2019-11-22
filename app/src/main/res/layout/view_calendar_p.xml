@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorMyBack"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+    <Button
+        android:id="@+id/button_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorMyButtonSettings"
+        android:text="Settings"
+        android:textColor="@color/colorMyText"
+        android:layout_marginBottom="10dp"></Button>
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Calendar access"
+        android:id="@+id/calendar_a"
+
+        android:background="@color/colorMyButton"
+        android:textColor="@color/colorMyText"></Button>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>
